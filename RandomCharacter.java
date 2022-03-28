@@ -16,7 +16,7 @@ public class RandomCharacter {
     public char getRandomUpperCaseLetter(){
         // Generate a random UPPERCASE letter from 'A' to 'Z'
         // Referenced to ASCII table, generating from a range of 
-        // 65 == A TO (65+26-1) == 90
+        // 65 == A TO (65+26-1) == Z
         return (char)(65 + random.nextInt(26));
     }
 
